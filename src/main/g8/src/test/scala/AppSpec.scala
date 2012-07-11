@@ -1,18 +1,18 @@
-package $organization$.$name$
+package $organization$.$name;format="Camel"$
 
-import org.specs2.mutable._
+import org.scalatest.FlatSpec
+import org.scalatest.matchers.ShouldMatchers
 
-class AppSpec extends Specification {
-
-  "The 'Hello world' string" should {
-    "contain 11 characters" in {
-      "Hello world" must have size(11)
-    }
-    "start with 'Hello'" in {
-      "Hello world" must startWith("Hello")
-    }
-    "end with 'world'" in {
-      "Hello world" must endWith("world")
-    }
+class AppSpec extends FlatSpec with ShouldMatchers {
+  "The 'Hello world' string" should "contain 11 characters" in {
+    "Hello world".length should equal (11)
+  }
+          
+  it should "start with 'Hello'" in {
+    "Hello world" should startWith("Hello")
+  }
+                    
+  it should "end with 'world'" in {
+    "Hello world" should endWith("world")
   }
 }
