@@ -15,4 +15,4 @@ libraryDependencies := Seq(
   "org.scalaz" %% "scalaz-core" % "6.0.4"
 )
 
-initialCommands := "import $organization$.$name;format="camel"$._"
+initialCommands := "import $organization$.$name;format="Camel"$._"
