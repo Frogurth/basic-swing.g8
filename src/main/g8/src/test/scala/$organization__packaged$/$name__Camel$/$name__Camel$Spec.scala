@@ -3,7 +3,7 @@ package $organization$.$name;format="Camel"$
 import org.scalatest.FlatSpec
 import org.scalatest.matchers.ShouldMatchers
 
-class AppSpec extends FlatSpec with ShouldMatchers {
+class $name;format="Camel"$Spec extends FlatSpec with ShouldMatchers {
   "The 'Hello world' string" should "contain 11 characters" in {
     "Hello world".length should equal (11)
   }
