@@ -1,7 +1,9 @@
 package $organization$.$name;format="Camel"$
 
-object $name;format="Camel"$ {
-  def main(args: Array[String]) {
-    print("Hello $organization$.$name;format="Camel"$!")
+import swing._
+
+object $name;format="Camel"$ extends SimpleGUIApplication {
+  def top = new MainFrame {
+    title = "Hello World"
   }
 }
