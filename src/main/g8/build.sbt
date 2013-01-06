@@ -4,7 +4,7 @@ organization := "$organization$"
 
 version := "$version$"
 
-scalaVersion := "2.9.1"
+scalaVersion := "2.10.0"
 
 resolvers := Seq(
   "Scala Tools Snapshots" at "http://scala-tools.org/repo-snapshots/"
