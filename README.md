@@ -5,6 +5,6 @@ the boilerplate in setting up a new scala swing project:
 * [scalaz](https://github.com/scalaz/scalaz)
 * [ScalaTest](http://www.scalatest.org/)
 * scala-swingy
-* SBT simple confguration for `0.11.2`, scala `2.9.1`, `scalatest`, `scala-swing` and `scalaz` dependencies
+* SBT simple confguration for `0.12.1`, scala `2.10.0`, `scalatest`, `scala-swing` and `scalaz` dependencies
 * project `name`, `organization` and `version` customizable as variables
 * everything in your project's base package imported automatically in repl sessions
